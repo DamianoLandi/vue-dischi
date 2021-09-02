@@ -1,0 +1,27 @@
+header{
+    height: 100px;
+    background-color: #2E3A46;
+}
+
+#logo{
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+main{
+    height: calc(100vh - 100px);
+    background-color: #1E2D3B;
+    padding-top: 50px;
+    overflow-x: hidden;
+}
+
+.song-card{
+    background-color: #2E3A46;
+    height: 350px;
+}
+
+.poster{
+    height: 140px;
+    width: 140px;
+}
