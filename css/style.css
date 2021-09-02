@@ -25,3 +25,12 @@ main{
     height: 140px;
     width: 140px;
 }
+
+h2{
+    font-size: 25px;
+}
+
+p{
+    color: gray;
+    font-size: 18px;
+}

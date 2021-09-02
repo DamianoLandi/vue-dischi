@@ -20,6 +20,10 @@
                 <div class="col-2 gy-4 px-3" v-for="song in songList">
                     <div class="song-card d-flex flex-column align-items-center justify-content-around">
                         <img class="poster" :src="song.poster" alt="Poster">
+                        <h2 class="text-white text-center text-uppercase">{{song.title}}</h2>
+                        <p class="text-center">
+                            {{song.author}} <br> {{song.year}}
+                        </p>
                     </div>
                 </div>
             </div>
